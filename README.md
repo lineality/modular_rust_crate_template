@@ -52,8 +52,18 @@ or bash_profile
 
 Now you should be able to call File Fantastic by typing 'ff' (or whatever you choose) into a terminal.
 
-# Calling Module
-### Sample main file to use this module
+
+# text of NAME_OF_DOT_RS_FILE.rs
+```rust
+// src/lib.rs (or src/NAME_OF_DOT_RS_FILE.rs)
+/// PROJECT_NAME - A ... in Rust
+/// use -> cargo build --profile release-performance
+/// or, use -> cargo build --profile release-small 
+
+/* Docs:
+DESCRIPTION
+
+Sample main file to use this module:
 ```rust
 // src/main.rs
 
@@ -73,10 +83,14 @@ fn main() {
         std::process::exit(1);
     }
 }
+```
+*/
+
+pub fn NAME_OF_FUNCTION_YOU_ARE_IMPORTING() {
+    println!("Hello, world!");
+}
 
 ```
 
-
-# DESCRIBE YOUR PROJECT HERE
 
 
