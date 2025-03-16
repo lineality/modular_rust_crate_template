@@ -1,7 +1,8 @@
-// src/lib.rs (or src/NAME_OF_DOT_RS_FILE.rs)
+// src/NAME_OF_DOT_RS_FILE.rs
 /// PROJECT_NAME - A ... in Rust
 /// use -> cargo build --profile release-performance
 /// or, use -> cargo build --profile release-small 
+/// see: https://github.com/lineality/rust_compile_optimizations_cheatsheet
 
 /* Docs:
 # DESCRIPTION
@@ -10,7 +11,7 @@
 ```rust
 // src/main.rs
 
-// import YOUR_MODULE_NAME module w/ these 2 lines
+// import NAME_OF_DOT_RS_FILE module w/ these 2 lines
 mod NAME_OF_DOT_RS_FILE;
 use NAME_OF_DOT_RS_FILE::NAME_OF_FUNCTION_YOU_ARE_IMPORTING;
 
@@ -26,6 +27,17 @@ fn main() {
         std::process::exit(1);
     }
 }
+```
+## Always
+```
+Always best practice.
+Always extensive doc strings.
+Always comments.
+Always clear, meaningful, unique names.
+Always absolute file paths.
+Always error handling.
+Never unsafe code.
+Never use unwrap.
 ```
 */
 
