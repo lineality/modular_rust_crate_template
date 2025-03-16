@@ -3,6 +3,8 @@
 /// use -> cargo build --profile release-performance
 /// or, use -> cargo build --profile release-small 
 /// see: https://github.com/lineality/rust_compile_optimizations_cheatsheet
+///
+/// this template: https://github.com/lineality/modular_rust_crate_template/edit/main/src/NAME_OF_DOT_RS_FILE.rs
 
 /* Docs:
 # DESCRIPTION
